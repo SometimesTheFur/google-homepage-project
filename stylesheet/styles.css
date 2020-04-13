@@ -24,6 +24,10 @@ html, body {
     
 }
 
+#tmaxipad {
+    padding-left: 950px;
+}
+
 .topleft {
     float: left;
     padding-left: 15px;
@@ -83,7 +87,9 @@ img {
   width: 40%;
   height: 45px;
   border-radius: 25px;
-  opacity: 40%;  
+  opacity: 40%;
+  font-size: 14px;
+  text-decoration-color: #222; 
 }
 
 .searchbar :hover {
@@ -91,44 +97,65 @@ img {
 }
 
 .button {
-    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border-color: #f2f2f2;
     display: inline;
-    padding-left: 30px;
-    background-color: #f3f3f3 !important;
-    border: none;
-    align-items: center;
 }
 
 #gsearch, #lsearch {
-    position: relative;
     border: none;
-    display: inline-block;
     text-align: center;
-    text-justify: auto;
+    text-justify: center;
+    font-size: 14px;
 }
 
-input :hover {
+.button :hover {
     border: 1px solid #999696;
   }
 
 #footnav {
-    background-color: #f3f3f3 !important;
-    border-top: 1px solid #e4e4e4;
+    display: inline-block;
+    background-color: #f2f2f2 !important;
+    border-top: 1px solid #c9c5c5;
     width: 100%;
-    line-height: 40px;
-    position: relative
+    position: relative;
+    margin-top: 320px;
 }
 
 .fbar {
-    position: fixed;
+    position: relative;
+    opacity: 80%;
+    display: inline-block;
 }
 
 .footleft {
     padding-left: 27px;
+    float: left;
 
 }
 
 .footright {
-    padding-left: 27px;
+    padding-right: 27px;
+    float: right;
 
+}
+
+#fmaxipad {
+    padding-left: 700px;
+}
+
+.footleft, .footright {
+    position: relative;
 }
