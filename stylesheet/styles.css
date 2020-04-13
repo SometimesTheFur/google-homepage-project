@@ -15,18 +15,14 @@ ul {
 
 li {
     display: inline;
+    line-height: 15px;
 }
 
 body, td, a, p, .h {
     font-family: arial,sans-serif;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-top-bar {
+.topnav {
     top: 16px;
     position: relative;
     font-size: 13px;
@@ -37,7 +33,7 @@ div {
     display: block;
 }
 
-div #viewpoint {
+div #viewport {
     position: absolute;
     top: 0;
     width: 100%;
