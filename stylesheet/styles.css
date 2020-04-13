@@ -10,23 +10,40 @@ html, body {
     font-family: arial,sans-serif;
 }
 
-.topnav {
+#topnav {
     top: 0;
     position: relative;
     font-size: 13px !important;
     padding-top: 10px;
+    margin-left: 15px;
+    opacity: 0.75
 }
 
+.tbar {
+    padding-left: 0px 0px 0px 15px;
+    
+}
+
+.topleft {
+    float: left;
+    padding-left: 15px;
+}
+
+.topright {
+    float: right;
+    padding-left: 15px;
+}
 ul {
     list-style: none;
-    padding: 0;
 }
 
 li {
-    display: inline;
+    display: inline-block;
     line-height: 15px;
     font-size: 14px;
     line-height: 15px;
+    cursor: pointer;
+    
 }
 
 li :hover {
@@ -38,25 +55,66 @@ div {
 }
 
 #logo {
-    position: relative;;
+    position: relative;
+    margin: 47px 47px 0px 47px;
+    padding-bottom: 35px;
 }
 
 img {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  align-content: space-around;
+  width: fit-content;
 }
 
-.fbar {
-    background-color: #f2f2f2;
+.searchbar {
+    position: relative;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: space-around;
+  width: 40%;
+  box-sizing: content-box;
+}
+
+.searchbar :hover {
+    box-shadow: darkgrey;
+}
+
+.button {
+    cursor: pointer;
+    display: inline;
+    padding-left: 30px;
+}
+
+.gsearch, .lsearch {
+    background-color: #f3f3f3 !important;
+    border: none;
+}
+
+.button :hover {
+    border: 1px solid #d0d0d0;
+  }
+
+#footnav {
+    background-color: #f3f3f3 !important;
     border-top: 1px solid #e4e4e4;
     width: 100%;
     line-height: 40px;
     position: relative
 }
 
+.fbar {
+    position: fixed;
+}
+
 .footleft {
-    ;
+    padding-left: 27px;
+
+}
+
+.footright {
+    padding-left: 27px;
 
 }
