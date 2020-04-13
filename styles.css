@@ -1,5 +1,32 @@
+body {
+    background: #fff;
+    color: #222;
+    display: block;
+    font-size: small;
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
 top-bar{
     top: 16px;
     position: relative;
     font-size: 13px;
+}
+div{
+    display: block;
+}
+div#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#viewport {
+    min-height: 100%;
+}
+#top-left{
+margin: 0em;
 }
