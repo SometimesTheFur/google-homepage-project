@@ -4,6 +4,8 @@ body {
     display: block;
     font-size: small;
 }
+ul {
+    list-style: none;}
 li{
     display: inline;
 }
@@ -23,17 +25,13 @@ top-bar{
 div{
     display: block;
 }
-div#viewport {
+div #viewpoint {
     position: absolute;
     top: 0;
     width: 100%;
 }
 #viewport {
     min-height: 100%;
-}
-}
-#top-right{
-    margin-right: 10em;
 }
 #logo{
     align-self: center;

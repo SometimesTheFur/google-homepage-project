@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<header>
-<source><link rel="stylesheet" href="styles.css">
-</header>
-    <body>
-    <nav>
-    <div class="ctr-p" id="viewpoint">
+<html lang="en">
+<head>
+<source><link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+
+<body>
+    <div class="topnav" id="viewpoint">
         <div class="top-bar">
         <ul class="nav">
             <li><a href="">About</a></li>
@@ -12,23 +13,26 @@
             <li><a href="">Gmail</a></li>
             <li><a href="">Images</a></li>
         </ul>
+    </div>
+    
+    <main>
+        <div id="logo">
+            <img alt="Google" height="92" href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
-        <div id="top-right" class="top-bar">
-            <a href=".">Gmail</a>
-            <a href=".">Images</a>
+        
+        <div>
+            <Form action="." method="GET"></Form>
+            <input type="search" class="searchbar" name="Search-bar">
         </div>
-    </nav>
-    <div class="logo">
-        <img alt="Google" height="92" href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>
-    <Form action="." method="GET"></Form>
-<input type="search" name="Search-bar">
-    </div>
-    <div id="gsearch">
-        <input type="button" value="Google_Search">
-    </div>
-    <div id="lsearch">
-        <input type="button" value="I'm_Feeling_Lucky">
-    </div>
+        
+        <div id="gsearch">
+            <input type="button" value="Google_Search">
+        </div>
+    
+        <div id="lsearch">
+            <input type="button" value="I'm_Feeling_Lucky">
+        </div>
+    </main>
+    
 </body>
-
+</html>
