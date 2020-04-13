@@ -28,5 +28,11 @@ div#viewport {
     min-height: 100%;
 }
 #top-left{
-margin: 0em;
+margin-left: 10em;
+}
+#top-right{
+    margin-right: 10em;
+}
+#logo{
+    align-self: center;
 }
