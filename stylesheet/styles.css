@@ -35,6 +35,7 @@ html, body {
 }
 ul {
     list-style: none;
+    padding: 0;
 }
 
 li {
@@ -48,6 +49,11 @@ li {
 
 li :hover {
     text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    position: relative;
 }
 
 div {
@@ -75,7 +81,9 @@ img {
   margin-right: auto;
   align-content: space-around;
   width: 40%;
-  box-sizing: content-box;
+  height: 45px;
+  border-radius: 25px;
+  opacity: 40%;  
 }
 
 .searchbar :hover {
@@ -86,15 +94,21 @@ img {
     cursor: pointer;
     display: inline;
     padding-left: 30px;
-}
-
-.gsearch, .lsearch {
     background-color: #f3f3f3 !important;
     border: none;
+    align-items: center;
 }
 
-.button :hover {
-    border: 1px solid #d0d0d0;
+#gsearch, #lsearch {
+    position: relative;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    text-justify: auto;
+}
+
+input :hover {
+    border: 1px solid #999696;
   }
 
 #footnav {
